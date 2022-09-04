@@ -35,6 +35,9 @@ class Door:
         else:
             print("❌")
             self.count += 1
-            if self.count == 4:
+            if self.count % 4 == 0 and self.count == 12:
+                print("SERVICE NEEDED")
+                return
+            elif self.count % 4 == 0:
                 time.sleep(10)
             self.access_door()
