@@ -1,3 +1,3 @@
 from door_parts import Door
-
-safe_door = Door()
+from UserInterface import UserInterface
+safe_door = UserInterface(Door())

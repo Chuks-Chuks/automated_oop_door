@@ -1,5 +1,5 @@
 class EncryptDecrypt:
-    step = 242236
+    step = 2  # 242236
 
     def __init__(self):
         self.new_alphabet_list = []
